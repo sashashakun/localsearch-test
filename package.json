@@ -6,18 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "build-backend": "tsc src/api/*.ts --outFile src/api/backend.js -p tsconfig.json",
-    "start-backend": "ts-node --esm ./src/api/backend.ts"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@vercel/node": "^2.9.0",
     "axios": "^1.3.1",
     "fastify": "^4.12.0",
-    "node-fetch": "^3.3.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "ts-node": "^10.9.1"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
